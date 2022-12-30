@@ -13,12 +13,26 @@ class Solution {
             max_r = Math.max(max_r, height[r]);
             r -= 1;
         }
+        
+       
+     //  if (l > r) {
+     //     break;
+     //   }
+     
+     //  Adding a break after the else statement reduces our memory usage from 43.1 MB to 43 MB, a .10 reduction at the cost of some readability.
+            
+       */     
+        
     }
 
     return res;
 }
         
     }
+
+
+
+
 
 
 /*
